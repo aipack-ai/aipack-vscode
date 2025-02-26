@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon</title>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(8, 24)" fill="#1E1F20">
+            <rect id="Rectangle" x="0" y="0" width="240" height="208" rx="21"></rect>
+        </g>
+        <g id="Group-2" transform="translate(25, 45)" font-family="Lato-Black, Lato" font-size="68.3336945" font-weight="800">
+            <text id="AI" fill="#FFFF00">
+                <tspan x="66.3856425" y="67">AI</tspan>
+            </text>
+            <text id="PACK" fill="#FFFFFF">
+                <tspan x="12.6070249" y="155">PACK</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

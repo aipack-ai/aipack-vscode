@@ -1,0 +1,43 @@
+{
+	"name": "aipack",
+	"publisher": "AIPACK",
+	"license": "MIT",
+	"displayName": "AIPACK",
+	"description": "VSCode extension for AIPACK - Run, Build, Share your AI Packs. https://aipack.ai",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.85.0"
+	},
+	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/aipack-ai/aipack-vscode"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "markdown",
+				"path": "./snippets/aipack-agent.code-snippets"
+			}
+		],
+		"languages": [
+			{
+					"id": "markdown",
+					"aliases": ["Markdown"],
+					"extensions": [".aip"]
+			}
+		]
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.85.0",
+		"@types/mocha": "^10.0.6",
+		"@types/node": "20.x",
+		"glob": "^10",
+		"mocha": "^10.4.0",
+		"typescript": "^5.4",
+		"@vscode/test-electron": "^2.3.9"
+	}
+}
