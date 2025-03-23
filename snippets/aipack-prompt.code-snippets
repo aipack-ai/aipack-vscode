@@ -1,0 +1,21 @@
+{
+  "aip-prompt-sep": {
+    "prefix": "aip-sep",
+    "body": [
+      "${1}",
+      "====",
+      ""
+    ],
+    "description": "AIPACK common prompt separator"
+  },
+  "aip-prompt-meta": {
+    "prefix": "aip-meta",
+    "body": [
+      "```toml",
+      "#!meta",
+      "# model = \"some-model\"",
+      "```"
+    ],
+    "description": "AIPAC common meta block"
+  },
+}
