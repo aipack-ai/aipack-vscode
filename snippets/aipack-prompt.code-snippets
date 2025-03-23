@@ -13,8 +13,9 @@
     "body": [
       "```toml",
       "#!meta",
-      "# model = \"some-model\"",
-      "```"
+      "${1:# }model = \"${2:some-model}\"",
+      "```",
+      "${3}"
     ],
     "description": "AIPAC common meta block"
   },
