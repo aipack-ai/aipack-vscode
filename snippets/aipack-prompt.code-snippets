@@ -13,7 +13,7 @@
     "body": [
       "```toml",
       "#!meta",
-      "${1:# }model = \"${2:some-model}\"",
+      "${1:# }model = \"${2:gpt-4o-mini}\"",
       "```",
       "${3}"
     ],
