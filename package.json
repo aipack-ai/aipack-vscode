@@ -20,15 +20,19 @@
 		"snippets": [
 			{
 				"language": "markdown",
-				"path": "./snippets/aipack-agent.code-snippets"
+				"path": "./snippets/aip-agent.code-snippets"
+			},
+			{
+				"language": "lua",
+				"path": "./snippets/aip-lua-parts.code-snippets"
+			},			
+			{
+				"language": "markdown",
+				"path": "./snippets/aip-prompt.code-snippets"
 			},
 			{
 				"language": "markdown",
-				"path": "./snippets/aipack-prompt.code-snippets"
-			},
-			{
-				"language": "markdown",
-				"path": "./snippets/aipack-stage.code-snippets"
+				"path": "./snippets/aip-stage.code-snippets"
 			}
 		],
 		"languages": [

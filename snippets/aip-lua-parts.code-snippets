@@ -1,0 +1,11 @@
+{
+    "aip-lua-debug-skip-return": {
+      "prefix": "aip-lua-debug-skip-return",
+      "body": [
+        "if true then",
+        "    return aip.flow.skip(\"Debug Skip\")",
+        "end"
+      ],
+      "description": "Return a debug skip"
+    },
+}
