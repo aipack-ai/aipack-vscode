@@ -1,6 +1,6 @@
 {
-	"aip-agent-min": {
-		"prefix": "aip-agent-min",
+	"aip-agent-01-min": {
+		"prefix": "aip-agent-01-min",
 		"body": [
 			"",
 			"# Data ",
@@ -37,5 +37,5 @@
 			"```"
 		],
 		"description": "Simple AIPACK agent file"
-	},
+	}
 }

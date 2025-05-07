@@ -1,0 +1,47 @@
+{
+    "aip-stage-0-options-01-simple": {
+      "prefix": "aip-stage-0-options-01-simple",
+      "body": [
+        "# Options",
+        "",
+        "```toml",
+        "# This will override the config properties set in `.aipack/config.toml` and `~/.aipack-base/config.toml`",
+        "",
+        "model = \"${1:gpt-4.1-mini}\"",
+        "",
+        "# temperature = 0.0 ",
+        "# input_concurrency = 6",
+        "```",
+        ""
+      ],
+      "description": "aip-stage-0-options-01-simple"
+    },
+    "aip-stage-1-before-all-02-reshape": {
+      "prefix": "aip-stage-1-before-all-02-reshape",
+      "body": [
+        "# Before All",
+        "",
+        "```lua",
+        "",
+        "-- Here we get the inputs from the command line (-i or -f)",
+        "local new_inputs = inputs",
+        "",
+        "-- If new inputs are given, we create them (or we could \"reshape\" them)",
+        "if new_inputs == nil then",
+        "    -- Only the direct files in the `src/` directory",
+        "    new_inputs = aip.file.list(\"src/*.*\")",
+        "end",
+        "",
+        "-- Could do `return {some = \"data\"}` and this will be accessible as `before_all`",
+        "-- Or for more control `aip.flow.before_all_response({...})` to reshape the inputs and more",
+        "return aip.flow.before_all_response({",
+        "    inputs     = new_inputs,         -- Reshaping the inputs",
+        "    before_all = { any_data = 123 }, -- Will be accessible as `before_all` variable in following stages",
+        "    -- options = { model = \"o4-mini\", item_concurrency = 12} -- Can even customize the AI settings",
+        "})",
+        "```",
+        ""
+      ],
+      "description": "Example of a Before All Stage with input reshaping"
+    }
+}

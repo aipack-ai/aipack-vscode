@@ -1,6 +1,6 @@
 {
   "aip-prompt-sep": {
-    "prefix": "aip-sep",
+    "prefix": "aip-prompt-sep",
     "body": [
       "${1}",
       "====",

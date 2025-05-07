@@ -25,7 +25,11 @@
 			{
 				"language": "markdown",
 				"path": "./snippets/aipack-prompt.code-snippets"
-			}			
+			},
+			{
+				"language": "markdown",
+				"path": "./snippets/aipack-stage.code-snippets"
+			}
 		],
 		"languages": [
 			{
