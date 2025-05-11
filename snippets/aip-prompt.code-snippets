@@ -9,7 +9,7 @@
     "description": "AIPACK common prompt separator"
   },
   "aip-prompt-meta": {
-    "prefix": "aip-meta",
+    "prefix": "aip-prompt-meta",
     "body": [
       "```toml",
       "#!meta",
