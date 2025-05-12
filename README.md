@@ -1,35 +1,29 @@
+
 # AIPack VSCode Extension
 
-This is the first version of the [AIPACK](https://aipack.ai) VSCode extension.
+The official [AIPACK](https://aipack.ai) VSCode extension.
 
-[AIPACK](https://aipack.ai) - RUN, BUILD, SHARE AI packages
+AIPACK is a runtime (command line) built in Rust to RUN, BUILD, and SHARE AI Packs.
 
-## AIPack Extension Features
+- See the [AIPACK Introduction Video](https://news.aipack.ai/p/aipack-introduction)
+- Using [pro@coder AI Pack for Production Coding](https://news.aipack.ai/p/production-coding-example-with-procoder)
+- [AIPACK Tutorials and More](https://news.aipack.ai/archive)
 
-Currently, there are very few features, but more are coming.
+## AIPACK Extension Features
 
-- File mapping: `.aip` files will be mapped as `markdown` to follow the AIPack format.
-- Snippets
-    - `aip-agent-min`: The minimum agent .aip example
+This extension provides a set of convenient snippets for creating:
+
+- Agent snippets
+- Prompt part snippets
+- Lua part snippets
+- Agent stage snippets
 
 ## Requirements
 
-This extension assumes AIPack is installed locally.
-
-Currently, the simplest way to install it is via the Rust language with:
-
-- `cargo install aipack`
-
-- Then `aip init`
-    - To initialize the current directory as the AIPACK workspace (with the `.aipack` directory).
-    - And initialize/update the `~/.aipack-base` directory.
+This extension assumes AIPACK is installed locally (see https://aipack.ai/doc/install).
 
 ## What is AIPACK?
 
-AIPACK is a command-line/runtime utility that allows you to run, build, and share AI Packages.
+AIPACK is a command-line runtime utility that allows you to run, build, and share AI Packages.
 
-For example:
-
-- Run `aip run demo@proof -f ./README.md` to run the AIPACK `proof` in the `demo` namespace.
-- Or run `aip run demo@craft/code` to request and write some code in a single `_craft_code.md` file.
-- Or run any `.aip` file directly, like `aip run my-agent.aip`.
+More information at (see https://aipack.ai)
