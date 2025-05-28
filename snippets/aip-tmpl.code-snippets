@@ -1,0 +1,15 @@
+{
+  "aip-tmpl-each-files": {
+    "prefix": "aip-tmpl-each-files",
+    "body": [
+      "{{#each data.${1:files}}}",
+      "{{this.path}}",
+      "```{{this.ext}}",
+      "{{this.content}}",
+      "```",
+      "",
+      "{{/each}}"
+    ],
+    "description": "aip-tmpl-each-files"
+  },
+}

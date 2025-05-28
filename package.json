@@ -34,7 +34,11 @@
 			{
 				"language": "markdown",
 				"path": "./snippets/aip-stage.code-snippets"
-			}
+			},
+			{
+				"language": "markdown",
+				"path": "./snippets/aip-tmpl.code-snippets"
+			}			
 		],
 		"languages": [
 			{
