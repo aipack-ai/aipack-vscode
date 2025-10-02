@@ -38,6 +38,10 @@
 			{
 				"language": "markdown",
 				"path": "./snippets/aip-tmpl.code-snippets"
+			},
+			{
+				"filename": ".gitignore",
+				"path": "./snippets/aip-gitignore.code-snippets"
 			}			
 		],
 		"languages": [
