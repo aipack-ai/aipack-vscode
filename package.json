@@ -4,7 +4,7 @@
 	"license": "MIT",
 	"displayName": "AIPack",
 	"description": "VSCode extension for AIPack - Run, Build, Share your AI Packs. https://aipack.ai",
-	"version": "0.1.3",
+	"version": "0.1.4-WIP",
 	"engines": {
 		"vscode": "^1.85.0"
 	},
@@ -14,7 +14,8 @@
 		"url": "https://github.com/aipack-ai/aipack-vscode"
 	},
 	"categories": [
-		"Snippets"
+		"Snippets",
+		"AI"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
