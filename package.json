@@ -2,8 +2,8 @@
 	"name": "aipack",
 	"publisher": "AIPACK",
 	"license": "MIT",
-	"displayName": "AIPACK",
-	"description": "VSCode extension for AIPACK - Run, Build, Share your AI Packs. https://aipack.ai",
+	"displayName": "AIPack",
+	"description": "VSCode extension for AIPack - Run, Build, Share your AI Packs. https://aipack.ai",
 	"version": "0.1.3-WIP",
 	"engines": {
 		"vscode": "^1.85.0"
